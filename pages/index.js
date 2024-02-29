@@ -16,7 +16,7 @@ export default function Home() {
         <main className="px-5 md:px-10 lg:px-20">
           <section className="min-h-screen">
             <nav className="py-10 mb-12 flex justify-between">
-              <h1 className="text-xl font-burtons">kevinliangweb</h1>
+              <h1 className="text-xl font-burtons"><a href="/">kevinliangweb</a></h1>
               <ul className="flex items-center">
                 <li><BsFillMoonStarsFill className="cursor-pointer text-xl"/></li>
                 <li><a href="#" className="px-4 ml-8 font-burtons">Resume</a></li>
