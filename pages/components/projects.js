@@ -2,7 +2,7 @@ import React from 'react';
 
 function MyProject (props, projectRef){
     return (
-        <section className="min-h-screen p-10 mx-auto" ref={projectRef}>
+        <section className="min-h-screen p-10 mx-auto overflow-x-auto " ref={projectRef}>
             <h2 className="text-center text-4xl md:text-6xl p-5 font-newWalt dark:text-white">Projects</h2>
 
             <div className="md:flex md:gap-5 lg:flex lg:gap-10">
