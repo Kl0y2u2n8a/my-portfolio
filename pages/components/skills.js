@@ -1,8 +1,8 @@
 import React from 'react';
 
-const MySkills = () => {
+function MySkills(props, skillsRef){
     return (
-        <section className="min-h-screen p-10">
+        <section className="min-h-screen p-10" ref={skillsRef}>
             <div className="text-center p-10">
                 <h3 className="text-4xl md:text-6xl py-1 font-newWalt dark:text-white">Skills</h3>
                 <p className="text-md py-3 bg-gradient-to-r from-purple-500 to-rose-400 bg-clip-text text-transparent max-w-l mx-auto md:text-lg lg:text-xl lg:py-3 leading-8">
@@ -15,4 +15,4 @@ const MySkills = () => {
         </section>
     )
 }
-export default MySkills;
+export default React.forwardRef(MySkills);

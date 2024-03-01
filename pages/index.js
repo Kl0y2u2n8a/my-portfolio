@@ -4,7 +4,7 @@ import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai';
 import { FaGripLinesVertical } from "react-icons/fa6";
 import Image from 'next/image';
 import robot from '../public/robot.png';
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 import WorkExperience from "./components/workexp";
 import MySkills from "./components/skills";
 import MyProject from "./components/projects";
@@ -12,7 +12,25 @@ import MyProject from "./components/projects";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
+  const skillsRef = useRef();
+  const workRef = useRef();
+  const projectRef = useRef();
 
+  function handleClick(div){
+    switch(div){
+      case "top":
+        break;
+      case "skills":
+        skillsRef.current?.scrollIntoView({behavior:'smooth'});
+        break;
+      case "workexp":
+        workRef.current?.scrollIntoView({behavior:"smooth"});
+        break;
+      case "projects":
+        projectRef.current?.scrollIntoView({behavior:"smooth"});
+        break;
+    }
+  };
 
   return (
 
@@ -25,12 +43,24 @@ export default function Home() {
       <main className="px-5w-auto md:px-10 lg:px-20 bg-gradient-to-tr from-sky-300 via-indigo-300 to-blue-100 dark:from-blue-950 dark:via-indigo-950 dark:to-black">
 
         <nav className="py-5 mb-12 flex justify-between sticky top-0 z-50 ml-1">
-          <h1 className="text-xl font-burtons text-blue-900 hover:text-blue-700 dark:text-white dark:hover:text-neutral-300">
+          <h1 className="text-xl font-burtons text-blue-900 hover:text-blue-500 dark:text-white dark:hover:text-neutral-300">
             <a href="/">kevinliangweb</a>
           </h1>
           <ul className="flex items-center ml-2">
             <li>
-              <button className="font-burtons text-[10px] align-middle md:text-sm ml-1 md:ml-2 lg:ml-4 text-blue-900 hover:text-blue-700 dark:text-white  dark:hover:text-neutral-300">
+              <button className="font-burtons text-[10px] align-middle md:text-sm ml-1 md:ml-2 lg:ml-4 text-blue-900 hover:text-sky-500 dark:text-white  dark:hover:text-neutral-300"
+              onClick={() => handleClick("top")}>
+                Top
+              </button>
+            </li>
+
+            <li className="font-burtons text-sm align-text-bottom md:text-xl ml-1 md:ml-2 lg:ml-4 text-blue-900 dark:text-white">
+              <FaGripLinesVertical />
+            </li>
+            
+            <li>
+              <button className="font-burtons text-[10px] align-middle md:text-sm ml-1 md:ml-2 lg:ml-4 text-blue-900 hover:text-sky-500 dark:text-white  dark:hover:text-neutral-300"
+              onClick={() => handleClick("skills")}>
                 Skills
               </button>
             </li>
@@ -40,7 +70,8 @@ export default function Home() {
             </li>
 
             <li>
-              <button className="font-burtons text-[10px] align-middle md:text-sm ml-1 md:ml-2 lg:ml-4 text-blue-900 hover:text-blue-700 dark:text-white dark:hover:text-neutral-300">
+              <button className="font-burtons text-[10px] align-middle md:text-sm ml-1 md:ml-2 lg:ml-4 text-blue-900 hover:text-sky-500 dark:text-white dark:hover:text-neutral-300"
+              onClick={()=>handleClick("workexp")}>
                 Work Experience
               </button>
             </li>
@@ -49,7 +80,8 @@ export default function Home() {
             </li>
 
             <li>
-              <button className="font-burtons text-[10px] align-middle md:text-sm ml-1 md:ml-2 lg:ml-4 text-blue-900 hover:text-blue-700 dark:text-white  dark:hover:text-neutral-300">
+              <button className="font-burtons text-[10px] align-middle md:text-sm ml-1 md:ml-2 lg:ml-4 text-blue-900 hover:text-sky-500 dark:text-white  dark:hover:text-neutral-300"
+              onClick={()=>handleClick("projects")}>
                 Projects
               </button>
             </li>
@@ -62,7 +94,7 @@ export default function Home() {
               <BsFillMoonStarsFill
                 onClick={() => setDarkMode(!darkMode)}
                 className=" cursor-pointer  text-sm md:text-xl ml-1 md:ml-2 lg:ml-4
-            text-blue-900 hover:text-blue-700 dark:text-white dark:hover:text-neutral-300"
+            text-blue-900 hover:text-sky-500 dark:text-white dark:hover:text-neutral-300"
               />
             </li>
 
@@ -100,9 +132,9 @@ export default function Home() {
             <Image src={robot} className="" />
           </div>
         </section>
-        <MySkills />
-        <WorkExperience />
-        <MyProject />
+        <MySkills ref={skillsRef}/>
+        <WorkExperience ref={workRef}/>
+        <MyProject ref={projectRef}/>
 
       </main>
     </div>

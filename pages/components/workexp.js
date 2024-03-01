@@ -1,8 +1,8 @@
 import React from 'react';
 
-const WorkExperience = () => {
+function WorkExperience (props, workRef){
     return (
-        <section className="min-h-screen p-10">
+        <section className="min-h-screen p-10" ref={workRef}>
             <div className="workexperience">
                 <div className="text-center p-10">
                     <h3 className="text-4xl md:text-6xl py-1 font-newWalt  dark:text-white">Work experience</h3>
@@ -18,4 +18,4 @@ const WorkExperience = () => {
     )
 }
 
-export default WorkExperience;
+export default React.forwardRef(WorkExperience);
