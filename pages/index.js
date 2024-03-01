@@ -6,7 +6,7 @@ import Image from 'next/image';
 import robot from '../public/robot.png';
 import { useState, useRef } from 'react';
 import WorkExperience from "./components/workexp";
-import MySkills from "./components/skills";
+import MySkills from "./components/skills/skills";
 import MyProject from "./components/projects";
 
 
@@ -16,9 +16,11 @@ export default function Home() {
   const workRef = useRef();
   const projectRef = useRef();
 
+  // Scoll handler
   function handleClick(div){
     switch(div){
       case "top":
+        window.scrollTo({top:0, behavior: "smooth"});
         break;
       case "skills":
         skillsRef.current?.scrollIntoView({behavior:'smooth'});
@@ -40,7 +42,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="px-5w-auto md:px-10 lg:px-20 bg-gradient-to-tr from-sky-300 via-indigo-300 to-blue-100 dark:from-blue-950 dark:via-indigo-950 dark:to-black">
+      <main className="px-5w-auto md:px-10 lg:px-20 bg-gradient-to-tr from-sky-300 via-indigo-300 to-blue-100 dark:from-blue-950 dark:via-indigo-950 dark:to-slate-950">
 
         <nav className="py-5 mb-12 flex justify-between sticky top-0 z-50 ml-1">
           <h1 className="text-xl font-burtons text-blue-900 hover:text-blue-500 dark:text-white dark:hover:text-neutral-300">
@@ -119,7 +121,7 @@ export default function Home() {
             <h2 className="text-4xl py-2 bg-gradient-to-r from-cyan-400 to-indigo-800 bg-clip-text text-transparent md:text-5xl lg:text-6xl lg:py-3">Kevin Liang</h2>
             <h3 className="text-xl py-2 md:text-2xl lg:text-3xl bg-gradient-to-r from-purple-500 to-sky-400 bg-clip-text text-transparent ">Infrastructure Engineer</h3>
             <p className="text-md font-rony9 py-3 leading-8 bg-gradient-to-br from-sky-400  to-indigo-700 bg-clip-text text-transparent max-w-l mx-auto md:text-lg lg:text-xl lg:py-3">
-              Currently working as Onsite Help desk Service and Dispatch troubleshooting Engineer.
+              My name is Kevin Liang. I am from Taiwan. Currently working as Onsite Help desk Service and Dispatch troubleshooting Engineer in Tokyo, Japan.
               Major in Computer Science in University of Illinois at Chicago.
               Having Passion on Front-end developing. I am currently learning React and Typescript by myself.
             </p>
