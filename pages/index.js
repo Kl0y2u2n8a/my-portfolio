@@ -42,7 +42,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="px-5 w-screen md:px-10 lg:px-20 bg-gradient-to-tr from-sky-300 via-indigo-300 to-blue-100 dark:from-blue-950 dark:via-indigo-950 dark:to-slate-950">
+      <main className="px-5 w-full overflow-x-auto md:px-10 lg:px-20 bg-gradient-to-tr from-sky-300 via-indigo-300 to-blue-100 dark:from-blue-950 dark:via-indigo-950 dark:to-slate-950">
 
         <nav className="py-5 mb-12 flex justify-between sticky top-0 z-50 ml-1">
           <h1 className="text-xl font-burtons text-blue-900 hover:text-blue-500 dark:text-white dark:hover:text-neutral-300">
