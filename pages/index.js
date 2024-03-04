@@ -17,19 +17,19 @@ export default function Home() {
   const projectRef = useRef();
 
   // Scoll handler
-  function handleClick(div){
-    switch(div){
+  function handleClick(div) {
+    switch (div) {
       case "top":
-        window.scrollTo({top:0, behavior: "smooth"});
+        window.scrollTo({ top: 0, behavior: "smooth" });
         break;
       case "skills":
-        skillsRef.current?.scrollIntoView({behavior:'smooth'});
+        skillsRef.current?.scrollIntoView({ behavior: 'smooth' });
         break;
       case "workexp":
-        workRef.current?.scrollIntoView({behavior:"smooth"});
+        workRef.current?.scrollIntoView({ behavior: "smooth" });
         break;
       case "projects":
-        projectRef.current?.scrollIntoView({behavior:"smooth"});
+        projectRef.current?.scrollIntoView({ behavior: "smooth" });
         break;
     }
   };
@@ -43,7 +43,7 @@ export default function Home() {
       </Head>
 
       <main className="px-5 min-w-fit bg-gradient-to-tr
-       from-sky-300 via-indigo-300 to-blue-100 dark:from-blue-950 dark:via-indigo-950 dark:to-slate-950">
+      from-sky-300 via-indigo-300 to-blue-100 dark:from-blue-950 dark:via-indigo-950 dark:to-slate-950">
 
         <nav className="sticky top-0 z-50 py-5 mb-12 flex justify-between">
           <h1 className="text-xl font-burtons text-blue-900 hover:text-blue-500 dark:text-white dark:hover:text-neutral-300">
@@ -52,7 +52,7 @@ export default function Home() {
           <ul className="flex items-center ml-2">
             <li>
               <button className="font-burtons text-[10px] align-middle md:text-sm ml-1 md:ml-2 lg:ml-4 text-blue-900 hover:text-sky-500 dark:text-white  dark:hover:text-neutral-300"
-              onClick={() => handleClick("top")}>
+                onClick={() => handleClick("top")}>
                 Top
               </button>
             </li>
@@ -60,10 +60,10 @@ export default function Home() {
             <li className="font-burtons text-sm align-text-bottom md:text-xl ml-1 md:ml-2 lg:ml-4 text-blue-900 dark:text-white">
               <FaGripLinesVertical />
             </li>
-            
+
             <li>
               <button className="font-burtons text-[10px] align-middle md:text-sm ml-1 md:ml-2 lg:ml-4 text-blue-900 hover:text-sky-500 dark:text-white  dark:hover:text-neutral-300"
-              onClick={() => handleClick("skills")}>
+                onClick={() => handleClick("skills")}>
                 Skills
               </button>
             </li>
@@ -74,7 +74,7 @@ export default function Home() {
 
             <li>
               <button className="font-burtons text-[10px] align-middle md:text-sm ml-1 md:ml-2 lg:ml-4 text-blue-900 hover:text-sky-500 dark:text-white dark:hover:text-neutral-300"
-              onClick={()=>handleClick("workexp")}>
+                onClick={() => handleClick("workexp")}>
                 Work Experience
               </button>
             </li>
@@ -84,7 +84,7 @@ export default function Home() {
 
             <li>
               <button className="font-burtons text-[10px] align-middle md:text-sm ml-1 md:ml-2 lg:ml-4 text-blue-900 hover:text-sky-500 dark:text-white  dark:hover:text-neutral-300"
-              onClick={()=>handleClick("projects")}>
+                onClick={() => handleClick("projects")}>
                 Projects
               </button>
             </li>
@@ -121,7 +121,7 @@ export default function Home() {
           <div className="text-center p-10 ">
             <h2 className="text-4xl py-2 bg-gradient-to-r from-cyan-400 to-indigo-800 bg-clip-text text-transparent md:text-5xl lg:text-6xl lg:py-3">Kevin Liang</h2>
             <h3 className="text-xl py-2 md:text-2xl lg:text-3xl bg-gradient-to-r from-purple-500 to-sky-400 bg-clip-text text-transparent ">Infrastructure Engineer</h3>
-            <p className="text-md font-rony9 py-3 leading-8 bg-gradient-to-br from-sky-400  to-indigo-700 bg-clip-text text-transparent max-w-l mx-auto md:text-lg lg:text-xl lg:py-3">
+            <p className="text-md font-rony9 py-3 leading-8 bg-gradient-to-br from-sky-400  to-indigo-700 bg-clip-text text-transparent max-w-xl mx-auto md:text-lg lg:text-xl lg:py-3">
               My name is Kevin Liang. I am from Taiwan. Currently working as Onsite Help desk Service and Dispatch troubleshooting Engineer in Tokyo, Japan.
               Major in Computer Science in University of Illinois at Chicago.
               Having Passion on Front-end developing. I am currently learning React and Typescript by myself.
@@ -135,9 +135,9 @@ export default function Home() {
             <Image src={robot} className="" />
           </div>
         </section>
-        <MySkills ref={skillsRef}/>
-        <WorkExperience ref={workRef}/>
-        <MyProject ref={projectRef}/>
+        <MySkills ref={skillsRef} />
+        <WorkExperience ref={workRef} />
+        <MyProject ref={projectRef} />
 
       </main>
     </div>

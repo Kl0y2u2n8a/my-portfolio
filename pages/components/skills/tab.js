@@ -32,7 +32,7 @@ const MyTabComp = () => {
             tab: "Coding",
             title: "Coding", content: (
             <div className="mt-4 text-xl">
-                <ul className="text-blue-700 dark:text-violet-100">
+                <ul className="text-neutral-700 dark:text-violet-100">
                     <li className="mt-2">JavaScript</li>
                     <li className="ml-2 text-lg"> 80%</li>
                     {progressBar("80%")}
@@ -61,7 +61,7 @@ const MyTabComp = () => {
             tab: "Software",
             title: "Software", content: (
             <div className="mt-4 text-xl">
-                <ul className="text-blue-700 dark:text-violet-100">
+                <ul className="text-neutral-700 dark:text-violet-100">
                     <li className="mt-2">Office Word/Excel/PowerPoint</li>
                     <li className="ml-2 text-lg"> 80%</li>
                     {progressBar("80%")}
@@ -88,7 +88,7 @@ const MyTabComp = () => {
             tab: "Language",
             title: "Language", content: (
             <div className="mt-4 text-xl">
-                <ul className="text-blue-700 dark:text-violet-100">
+                <ul className="text-neutral-700 dark:text-violet-100">
                     <li className="mt-2">Japanese</li>
                     <li className="ml-2 text-lg"> 80%</li>
                     {progressBar("80%")}
@@ -113,13 +113,13 @@ const MyTabComp = () => {
     return (
         <div>
             <div className=
-                "relative m-4 max-w-2xl mx-auto h-12 grid grid-cols-4 justify-between overflow-hidden rounded-full border-gray-700 bg-gray-400/20 transition shadow-xl shadow-900/20"
+                "relative m-4 pr-4 max-w-3xl mx-auto h-12 grid grid-cols-4 justify-between overflow-hidden rounded-full border-gray-700 bg-gray-400/20 transition shadow-xl shadow-900/20"
             >
                 {items.map((item, index) => {
                     return (
                         <button
                             key={index}
-                            className={'relative block h-10 px-2 tab items-center rounded-full bg-gradient-to-r from-sky-200 via-blue-500 to-gray-800 bg-clip-text text-transparent hover:text-white ${index === activeTab ? "border-gray-900" : "border-white" }'}
+                            className={'relative block text-sm h-10 tab items-center rounded-full bg-gradient-to-r from-sky-400 via-blue-500 to-gray-800 bg-clip-text text-transparent dark:via-blue-300 dark:to-gray-400 hover:text-white ${index === activeTab ? "border-gray-900" : "border-white" }'}
                             onClick={() => setActiveTab(index)}
                         >
                             {item.tab}
