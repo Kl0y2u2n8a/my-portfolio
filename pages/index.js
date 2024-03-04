@@ -2,6 +2,8 @@ import Head from "next/head";
 import { BsFillMoonStarsFill } from 'react-icons/bs';
 import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai';
 import { FaGripLinesVertical } from "react-icons/fa6";
+import { FiMenu } from "react-icons/fi";
+import { TbLanguageHiragana } from "react-icons/tb";
 import Image from 'next/image';
 import robot from '../public/robot.png';
 import { useState, useRef } from 'react';
@@ -10,13 +12,14 @@ import MySkills from "./components/skills/skills";
 import MyProject from "./components/projects";
 
 
+
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
   const skillsRef = useRef();
   const workRef = useRef();
   const projectRef = useRef();
 
-  // Scoll handler
+  // Scroll handler
   function handleClick(div) {
     switch (div) {
       case "top":
@@ -94,6 +97,15 @@ export default function Home() {
             </li>
 
             <li>
+              <button  data-ripple-light="true" data-popover-target="menu"
+                className="font-burtons text-l align-middle md:text-2xl ml-1 md:ml-2 lg:ml-4 text-blue-900 hover:text-sky-500 dark:text-white  dark:hover:text-neutral-300">
+                <FiMenu />
+              </button>
+
+
+            </li>
+
+            <li>
               <BsFillMoonStarsFill
                 onClick={() => setDarkMode(!darkMode)}
                 className=" cursor-pointer  text-sm md:text-xl ml-1 md:ml-2 lg:ml-4
@@ -101,8 +113,11 @@ export default function Home() {
               />
             </li>
 
-            <li className="font-burtons text-sm md:text-md ml-1 md:ml-2 lg:ml-4 text-blue-900 dark:text-white">
-              <FaGripLinesVertical />
+            <li>
+              <TbLanguageHiragana
+                className=" cursor-pointer text-lg md:text-xl ml-1 md:ml-2 lg:ml-4
+            text-blue-900 hover:text-sky-500 dark:text-white dark:hover:text-neutral-300"
+              />
             </li>
 
             <li>
@@ -135,6 +150,7 @@ export default function Home() {
             <Image src={robot} className="" />
           </div>
         </section>
+        
         <MySkills ref={skillsRef} />
         <WorkExperience ref={workRef} />
         <MyProject ref={projectRef} />
