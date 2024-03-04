@@ -30,7 +30,7 @@ function MyProject(props, projectRef) {
             <h2 className="text-center text-4xl md:text-6xl p-5 font-newWalt dark:text-white">Projects</h2>
             <div className="sm:grid grid-cols-3">
 
-                <button onClick={()=>{handleScroll("left")}} className="invisible md:visible rounded-full w-60 h-60 m-auto"><FaAnglesLeft className="m-auto text-gray-500"/></button>
+                <button onClick={()=>{handleScroll("left")}} className="invisible md:visible  w-40 h-80 m-auto"><FaAnglesLeft className="m-auto text-gray-500"/></button>
 
                 <div ref={contentRef} className="h-fit md:flex md:h-96 md:gap-5 lg:flex lg:gap-10 overflow-x-auto snap-x snap-mandatory scrollbar-hide w-5xl px-3">
 
@@ -73,7 +73,7 @@ function MyProject(props, projectRef) {
                     </div>
 
                 </div>
-                <button onClick={()=>{handleScroll("right")}} className="invisible md:visible rounded-full w-40 h-40 m-auto"><FaAnglesRight className="m-auto text-gray-500"/></button>
+                <button onClick={()=>{handleScroll("right")}} className="invisible md:visible w-40 h-80 m-auto"><FaAnglesRight className="m-auto text-gray-500"/></button>
             </div>
 
         </section>

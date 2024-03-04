@@ -124,7 +124,7 @@ export default function Home() {
             <p className="text-md font-rony9 py-3 leading-8 bg-gradient-to-br from-sky-400  to-indigo-700 bg-clip-text text-transparent max-w-xl mx-auto md:text-lg lg:text-xl lg:py-3">
               My name is Kevin Liang. I am from Taiwan. Currently working as Onsite Help desk Service and Dispatch troubleshooting Engineer in Tokyo, Japan.
               Major in Computer Science in University of Illinois at Chicago.
-              Having Passion on Front-end developing. I am currently learning React and Typescript by myself.
+              Having Passion to Front-end developing. I am currently learning React and Typescript by myself.
             </p>
           </div>
           <div className="text-4xl flex justify-center gap-10 text-gray-600 dark:text-sky-200">
@@ -138,6 +138,16 @@ export default function Home() {
         <MySkills ref={skillsRef} />
         <WorkExperience ref={workRef} />
         <MyProject ref={projectRef} />
+
+        <footer>
+          <div className="font-rony9 text-sm border-t-2 p-auto pt-3 text-center bg-gradient-to-r font-extrabold from-blue-800 via-sky-400 to-stone-400 bg-clip-text text-transparent">
+            <h1 className="p-1 text-xl">Kevin Liang</h1>
+            <p className=" p-1">Contact information:</p>
+            <p className="p-1">Email: kevinmailforjapan@gmail.com</p>
+            <p className="p-1">Mobile#: 080-2966-3363</p>
+            <p className="p-1">LinkedIn: <a href="https://www.linkedin.com/in/liang-kai0228/" target="_blank">Kai Liang</a></p>
+          </div>
+        </footer>
 
       </main>
     </div>
