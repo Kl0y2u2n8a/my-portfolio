@@ -45,7 +45,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="px-5 min-w-fit bg-gradient-to-tr
+      <main className="px-5 min-w-fit min-h-full bg-gradient-to-tr
       from-sky-300 via-indigo-300 to-blue-100 dark:from-blue-950 dark:via-indigo-950 dark:to-slate-950">
 
         <nav className="sticky top-0 z-50 py-5 mb-12 flex justify-between">
@@ -156,9 +156,9 @@ export default function Home() {
         <MyProject ref={projectRef} />
 
         <footer>
-          <div className="font-rony9 text-sm border-t-2 p-auto pt-3 text-center bg-gradient-to-r font-extrabold from-blue-800 via-sky-400 to-stone-400 bg-clip-text text-transparent">
+          <div className="font-rony9 pb-8 text-sm border-t-2 p-auto pt-3 text-center font-extrabold text-blue-800 dark:text-sky-400 bg-clip-text text-transparent">
             <h1 className="p-1 text-xl">Kevin Liang</h1>
-            <p className=" p-1">Contact information:</p>
+            <p className="p-1">Contact information:</p>
             <p className="p-1">Email: kevinmailforjapan@gmail.com</p>
             <p className="p-1">Mobile#: 080-2966-3363</p>
             <p className="p-1">LinkedIn: <a href="https://www.linkedin.com/in/liang-kai0228/" target="_blank">Kai Liang</a></p>
