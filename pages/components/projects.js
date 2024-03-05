@@ -47,7 +47,7 @@ function MyProject(props, projectRef) {
                         <p className="text-sm bg-gradient-to-r from-pink-500 via-rose-500 to-orange-500 bg-clip-text text-transparent py-1 font-rony9">HTML/CSS, PHP</p>
                         <p className="text-sm bg-gradient-to-r from-pink-500 via-rose-500 to-orange-500 bg-clip-text text-transparent py-1 font-rony9">Visual Studio Code, XAMPP</p>
                         
-                        <button className="mt-3 rounded-lg border border-gray-800 p-1 text-sm text-blue-700 font-burtons bg-gradient-to-r from-blue-400 via-white to-sky-500 hover:from-sky-500 hover:via-white hover:to-blue-400 hover:text-violet-500 dark:from-blue-600 dark:to-sky-600 dark:text-white dark:hover:from-sky-600 dark:hover:via-gray-400 dark:hover:to-blue-600"><a href="https://github.com/Kl0y2u2n8a/CRUDproject?tab=readme-ov-file" target="_blank">Resource Code</a>
+                        <button className="mt-3 rounded-lg border border-gray-800 p-1 text-sm text-blue-700 font-burtons bg-gradient-to-r from-blue-400 via-white to-sky-500 hover:from-sky-500 hover:via-white hover:to-blue-400 hover:text-violet-500 dark:from-blue-600 dark:to-sky-600 dark:text-white dark:hover:from-sky-600 dark:hover:via-gray-400 dark:hover:to-blue-600"><a href="https://github.com/Kl0y2u2n8a/CRUDproject" target="_blank">Resource Code</a>
                         </button>
 
                     </div>
@@ -61,7 +61,7 @@ function MyProject(props, projectRef) {
                         <p className="text-sm bg-gradient-to-r from-pink-500 via-rose-500 to-orange-500 bg-clip-text text-transparent py-1 font-rony9">PHP, HTML/CSS</p>
                         <p className="text-sm bg-gradient-to-r from-pink-500 via-rose-500 to-orange-500 bg-clip-text text-transparent py-1 font-rony9">Visual Studio Code, XAMPP</p>
                         
-                        <button className="mt-3 rounded-lg border border-gray-800 p-1 text-sm text-blue-700 font-burtons bg-gradient-to-r from-blue-400 via-white to-sky-500 hover:from-sky-500 hover:via-white hover:to-blue-400 hover:text-violet-500 dark:from-blue-600 dark:to-sky-600 dark:text-white dark:hover:from-sky-600 dark:hover:via-gray-400 dark:hover:to-blue-600"><a href="" target="_blank">Resource Code</a>
+                        <button className="mt-3 rounded-lg border border-gray-800 p-1 text-sm text-blue-700 font-burtons bg-gradient-to-r from-blue-400 via-white to-sky-500 hover:from-sky-500 hover:via-white hover:to-blue-400 hover:text-violet-500 dark:from-blue-600 dark:to-sky-600 dark:text-white dark:hover:from-sky-600 dark:hover:via-gray-400 dark:hover:to-blue-600"><a href="https://github.com/Kl0y2u2n8a/phpproject" target="_blank">Resource Code</a>
                         </button>
 
                     </div>
@@ -75,7 +75,7 @@ function MyProject(props, projectRef) {
                         <p className="text-sm bg-gradient-to-r from-pink-500 via-rose-500 to-orange-500 bg-clip-text text-transparent py-1 font-rony9">Visual Studio Code</p>
                         <p className="text-sm bg-gradient-to-r from-pink-500 via-rose-500 to-orange-500 bg-clip-text text-transparent py-1 font-rony9">HTML/CSS</p>
                         
-                        <button className="mt-3 rounded-lg border border-gray-800 p-1 text-sm text-blue-700 font-burtons bg-gradient-to-r from-blue-400 via-white to-sky-500 hover:from-sky-500 hover:via-white hover:to-blue-400 hover:text-violet-500 dark:from-blue-600 dark:to-sky-600 dark:text-white dark:hover:from-sky-600 dark:hover:via-gray-400 dark:hover:to-blue-600"><a href="" target="_blank">Resource Code</a>
+                        <button className="mt-3 rounded-lg border border-gray-800 p-1 text-sm text-blue-700 font-burtons bg-gradient-to-r from-blue-400 via-white to-sky-500 hover:from-sky-500 hover:via-white hover:to-blue-400 hover:text-violet-500 dark:from-blue-600 dark:to-sky-600 dark:text-white dark:hover:from-sky-600 dark:hover:via-gray-400 dark:hover:to-blue-600"><a href="https://github.com/Kl0y2u2n8a/tvscreen" target="_blank">Resource Code</a>
                         </button>
 
                     </div>
@@ -89,7 +89,7 @@ function MyProject(props, projectRef) {
                         <p className="text-sm bg-gradient-to-r from-pink-500 via-rose-500 to-orange-500 bg-clip-text text-transparent py-1 font-rony9">Visual Studio Code</p>
                         <p className="text-sm bg-gradient-to-r from-pink-500 via-rose-500 to-orange-500 bg-clip-text text-transparent py-1 font-rony9">JavaScript, HTML/CSS</p>
                         
-                        <button className="mt-3 rounded-lg border border-gray-800 p-1 text-sm text-blue-700 font-burtons bg-gradient-to-r from-blue-400 via-white to-sky-500 hover:from-sky-500 hover:via-white hover:to-blue-400 hover:text-violet-500 dark:from-blue-600 dark:to-sky-600 dark:text-white dark:hover:from-sky-600 dark:hover:via-gray-400 dark:hover:to-blue-600"><a href="" target="_blank">Resource Code</a>
+                        <button className="mt-3 rounded-lg border border-gray-800 p-1 text-sm text-blue-700 font-burtons bg-gradient-to-r from-blue-400 via-white to-sky-500 hover:from-sky-500 hover:via-white hover:to-blue-400 hover:text-violet-500 dark:from-blue-600 dark:to-sky-600 dark:text-white dark:hover:from-sky-600 dark:hover:via-gray-400 dark:hover:to-blue-600"><a href="https://github.com/Kl0y2u2n8a/Get-Password-Game" target="_blank">Resource Code</a>
                         </button>
 
                     </div>
