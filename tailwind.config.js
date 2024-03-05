@@ -1,3 +1,5 @@
+const plugin = require('tailwindcss');
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   darkMode:"class",
@@ -17,6 +19,20 @@ module.exports = {
       },
     },
   },
-  plugins: [ require('tailwind-scrollbar-hide')],
+  plugins: [ 
+    function({addUtilities}){
+      const newUtilities = {
+        ".no-scrollbar::-webkit-scrollbar":{
+          display: "none",
+        },
+        ".no-scrollbar":{
+          "-ms-overflow-style": "none",
+          "scrollbar-width": "none",
+        },
+      };
+
+      addUtilities(newUtilities);
+    }
+  ],
 };
 

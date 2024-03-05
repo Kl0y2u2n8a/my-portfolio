@@ -31,7 +31,7 @@ function MyProject(props, projectRef) {
             <h2 className="text-center text-5xl md:text-6xl font-newWalt mb-5 dark:text-white">Projects</h2>
             <div className="flex md:grid md:grid-cols-1 md:min-h-screen ">
 
-                <div ref={contentRef} className="md:flex h-auto md:w-9/12 pb-5 md:gap-5 mx-auto lg:gap-10 overflow-x-scroll snap-x snap-mandatory scrollbar-hide">
+                <div ref={contentRef} className="md:flex h-auto md:w-9/12 pb-5 md:gap-5 mx-auto lg:gap-10 overflow-x-scroll snap-x snap-mandatory no-scrollbar ">
                     
                     <div className="ml-3 border-t border-gray-200 text-center min-w-fit md:h-auto shadow-lg p-10 rounded-xl mx-auto my-auto snap-center snap-always dark:border-white dark:shadow-gray-500 hover:shadow-neutral-200 dark:hover:shadow-gray-400">
                         
