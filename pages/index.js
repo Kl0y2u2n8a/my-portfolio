@@ -156,7 +156,7 @@ export default function Home() {
         <MyProject ref={projectRef} />
 
         <footer>
-          <div className="font-rony9 pb-8 text-sm border-t-2 p-auto pt-3 text-center font-extrabold text-blue-800 dark:text-sky-400 bg-clip-text text-transparent">
+          <div className="font-rony9 pb-8 text-sm border-t-2 p-auto pt-3 text-center font-extrabold text-blue-800 dark:text-sky-400 ">
             <h1 className="p-1 text-xl">Kevin Liang</h1>
             <p className="p-1">Contact information:</p>
             <p className="p-1">Email: kevinmailforjapan@gmail.com</p>
