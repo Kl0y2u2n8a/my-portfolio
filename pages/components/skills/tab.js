@@ -113,13 +113,13 @@ const MyTabComp = () => {
     return (
         <div>
             <div className=
-                "relative m-4 pr-4 max-w-3xl mx-auto h-12 grid grid-cols-4 justify-between overflow-hidden rounded-full border-gray-700 bg-gray-400/20 transition shadow-xl shadow-900/20"
+                "relative m-4 px-2 max-w-3xl mx-auto h-12 grid grid-cols-4 justify-between overflow-hidden rounded-full border-gray-700 bg-gray-400/20 transition shadow-xl shadow-900/20"
             >
                 {items.map((item, index) => {
                     return (
                         <button
                             key={index}
-                            className={'relative block text-sm h-10 tab items-center rounded-full bg-gradient-to-r from-sky-400 via-blue-500 to-gray-800 bg-clip-text text-transparent dark:via-blue-300 dark:to-gray-400 hover:text-white ${index === activeTab ? "border-gray-900" : "border-white" }'}
+                            className={'relative block text-sm tab items-center rounded-full bg-gradient-to-r from-sky-400 via-blue-500 to-gray-800 bg-clip-text text-transparent dark:via-blue-300 dark:to-gray-400 hover:text-white ${index === activeTab ? "border-gray-900" : "border-white" }'}
                             onClick={() => setActiveTab(index)}
                         >
                             {item.tab}
