@@ -5,7 +5,7 @@ import { FaGripLinesVertical } from "react-icons/fa6";
 import { FiMenu } from "react-icons/fi";
 import { TbLanguageHiragana } from "react-icons/tb";
 import Image from 'next/image';
-import robot from '../public/robot.png';
+import my from '../public/my.jpg';
 import { useState, useRef } from 'react';
 import WorkExperience from "./components/workexp";
 import MySkills from "./components/skills/skills";
@@ -142,6 +142,10 @@ export default function Home() {
 
         <section className="min-h-screen">
           <div className="text-center p-10 ">
+
+            <div className="relative mx-auto bg-gradient-to-b from-slate-600 to-neutral-300 rounded-full w-60 h-60 mb-5 overflow-hidden md:w-72 md:h-72">
+              <Image src={my} className="" />
+            </div>
             <h2 className="text-4xl py-2 bg-gradient-to-r from-cyan-400 to-indigo-800 bg-clip-text text-transparent md:text-5xl lg:text-6xl lg:py-3">Kevin Liang</h2>
             <h3 className="text-xl py-2 md:text-2xl lg:text-3xl bg-gradient-to-r from-purple-500 to-sky-400 bg-clip-text text-transparent ">Infrastructure Engineer</h3>
             <p className="text-md font-rony9 py-3 leading-8 bg-gradient-to-br from-sky-400  to-indigo-700 bg-clip-text text-transparent max-w-xl mx-auto md:text-lg lg:text-xl lg:py-3">
@@ -153,9 +157,6 @@ export default function Home() {
           <div className="text-4xl flex justify-center gap-10 text-gray-600 dark:text-sky-200">
             <a href="https://github.com/Kl0y2u2n8a" target='_blank' className='hover:text-gray-800 dark:hover:text-sky-100'><AiFillGithub /></a>
             <a href="https://www.linkedin.com/in/liang-kai0228/" target='_blank' className=' hover:text-gray-800 dark:hover:text-sky-100'><AiFillLinkedin /></a>
-          </div>
-          <div className="relative mx-auto bg-gradient-to-b from-slate-600 to-neutral-300 rounded-full w-60 h-60 mt-20 overflow-hidden md:w-72 md:h-72">
-            <Image src={robot} className="" />
           </div>
         </section>
         
