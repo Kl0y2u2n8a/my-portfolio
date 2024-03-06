@@ -149,9 +149,11 @@ export default function Home() {
             <h2 className="text-4xl py-2 bg-gradient-to-r from-cyan-400 to-indigo-800 bg-clip-text text-transparent md:text-5xl lg:text-6xl lg:py-3">Kevin Liang</h2>
             <h3 className="text-xl py-2 md:text-2xl lg:text-3xl bg-gradient-to-r from-purple-500 to-sky-400 bg-clip-text text-transparent ">Infrastructure Engineer</h3>
             <p className="text-md font-rony9 py-3 leading-8 bg-gradient-to-br from-sky-400  to-indigo-700 bg-clip-text text-transparent max-w-xl mx-auto md:text-lg lg:text-xl lg:py-3">
-              My name is Kevin Liang. I am from Taiwan. Currently working as Onsite Help desk Service and Dispatch troubleshooting Engineer in Tokyo, Japan.
-              Major in Computer Science in University of Illinois at Chicago.
-              Having Passion to Front-end developing. I am currently learning React and Typescript by myself.
+              My name is Kevin Liang. I am Taiwanese.<br/>
+              I am currently working as Onsite Help desk Service and Dispatch troubleshooting Engineer in Tokyo.<br/>
+              Majored in Computer Science in University of Illinois at Chicago.<br/>
+              Having Passion to Front-end developing. I am currently learning React and Typescript by myself.<br/>
+              Currently looking for the position of Front-end Engineer.
             </p>
           </div>
           <div className="text-4xl flex justify-center gap-10 text-gray-600 dark:text-sky-200">
