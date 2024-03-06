@@ -17,7 +17,7 @@ export default function Home() {
   // for dark mode
   const [darkMode, setDarkMode] = useState(false);
   // for dropdown
-  const [isOpen, setIsOpen] = useState(false);
+  // const [isOpen, setIsOpen] = useState(false);
 
   const skillsRef = useRef();
   const workRef = useRef();
