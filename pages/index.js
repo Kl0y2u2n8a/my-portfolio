@@ -14,7 +14,11 @@ import MyProject from "./components/projects";
 
 
 export default function Home() {
+  // for dark mode
   const [darkMode, setDarkMode] = useState(false);
+  // for dropdown
+  const [isOpen, setIsOpen] = useState(false);
+
   const skillsRef = useRef();
   const workRef = useRef();
   const projectRef = useRef();
@@ -37,6 +41,7 @@ export default function Home() {
     }
   };
 
+
   return (
 
     <div className={darkMode ? "dark" : ""}>
@@ -47,6 +52,8 @@ export default function Home() {
 
       <main className="px-5 min-w-fit min-h-full bg-gradient-to-tr
       from-sky-300 via-indigo-300 to-blue-100 dark:from-blue-950 dark:via-indigo-950 dark:to-slate-950">
+
+        
 
         <nav className="sticky top-0 z-50 py-5 mb-12 flex justify-between">
           <h1 className="text-xl font-burtons text-blue-900 hover:text-blue-500 dark:text-white dark:hover:text-neutral-300">
@@ -96,14 +103,15 @@ export default function Home() {
               <FaGripLinesVertical />
             </li>
 
-            <li>
+            {/* <li>
               <button  data-ripple-light="true" data-popover-target="menu"
-                className="font-burtons text-l align-middle md:text-2xl ml-1 md:ml-2 lg:ml-4 text-blue-900 hover:text-sky-500 dark:text-white  dark:hover:text-neutral-300">
+                className="font-burtons text-l align-middle md:text-2xl ml-1 md:ml-2 lg:ml-4 text-blue-900 hover:text-sky-500 dark:text-white  dark:hover:text-neutral-300"
+                >
                 <FiMenu />
               </button>
+              
 
-
-            </li>
+            </li> */}
 
             <li>
               <BsFillMoonStarsFill
@@ -113,19 +121,19 @@ export default function Home() {
               />
             </li>
 
-            <li>
+            {/* <li>
               <TbLanguageHiragana
                 className=" cursor-pointer text-lg md:text-xl ml-1 md:ml-2 lg:ml-4
             text-blue-900 hover:text-sky-500 dark:text-white dark:hover:text-neutral-300"
               />
-            </li>
+            </li> */}
 
             <li>
               <button
                 className="border-2 border-gray-600 rounded-full bg-gradient-to-r from-blue-500 to-sky-400 px-2 justify-center 
                             ml-2 lg:ml-4 font-burtons text-l text-blue-900 dark:text-white hover:bg-gradient-to-l dark:hover:text-neutral-300"
               >
-                Resume
+                <a href="https://drive.google.com/file/d/1brZKtkZXY8eL__ZqG7HDDxdz1ndcuYV4/view?usp=sharing" target="_blank" >Resume</a>
               </button>
             </li>
           </ul>

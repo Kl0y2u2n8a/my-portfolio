@@ -36,6 +36,11 @@ function WorkExperience(props, workRef) {
                                 <p className="md:text-3xl">Client List</p>
                                 {Clients}
                             </ul>
+                            <button className="my-5 rounded-lg border border-gray-800 p-1 text-lg text-blue-700 font-burtons bg-gradient-to-r 
+                            from-blue-400 via-white to-sky-500 hover:from-sky-500 hover:via-white hover:to-blue-400 hover:text-violet-500 
+                            dark:from-blue-600 dark:to-sky-600 dark:text-white dark:hover:from-sky-600 dark:hover:via-gray-400 dark:hover:to-blue-600">
+                                <a href="https://drive.google.com/file/d/1laXrfOwiUNvZJaPEPMLyUJeqxHeApEMe/view?usp=sharing" target="_blank">More Detials in Japanese</a>
+                        </button>
                         </div>
 
                     </div>
