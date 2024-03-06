@@ -6,13 +6,13 @@ function MyProject(props, projectRef) {
     const contentRef = useRef();
 
     return (
-        <section className="min-h-screen mx-auto mb-5 justify-center scroll-smooth" ref={projectRef}>
+        <section className="min-h-screen px-5 mx-auto mb-5 justify-center scroll-smooth" ref={projectRef}>
 
             <h2 className="text-center text-5xl md:text-6xl font-newWalt mb-5 dark:text-white">Projects</h2>
             <div className="flex md:grid md:grid-cols-1 md:min-h-screen ">
 
                 <div ref={contentRef} className="md:flex h-auto md:w-9/12 pb-5 md:gap-5 mx-auto lg:gap-10 overflow-x-scroll snap-x snap-mandatory no-scrollbar ">
-                <div className="border-t md:ml-10 lg:ml-60 border-gray-200 text-center min-w-fit md:h-auto shadow-lg p-10 rounded-xl mx-auto my-auto snap-center snap-always dark:border-white dark:shadow-gray-500 hover:shadow-neutral-200 dark:hover:shadow-gray-400">
+                    <div className="border-t my-10 md:ml-10 lg:ml-60 border-gray-200 text-center min-w-fit md:h-auto shadow-lg p-10 rounded-xl mx-auto md:my-auto snap-center snap-always dark:border-white dark:shadow-gray-500 hover:shadow-neutral-200 dark:hover:shadow-gray-400">
 
                         <h3 className="text-2xl font-salma text-slate-600 md:text-xl lg:text-2xl dark:text-neutral-300">Finance logs</h3>
 
@@ -41,7 +41,7 @@ function MyProject(props, projectRef) {
 
                     </div>
 
-                    <div className="border-t md:ml-10 lg:ml-60 border-gray-200 text-center min-w-fit md:h-auto shadow-lg p-10 rounded-xl mx-auto my-auto snap-center snap-always dark:border-white dark:shadow-gray-500 hover:shadow-neutral-200 dark:hover:shadow-gray-400">
+                    <div className="border-t my-10 md:ml-10 lg:ml-60 border-gray-200 text-center min-w-fit md:h-auto shadow-lg p-10 rounded-xl mx-auto md:my-auto snap-center snap-always dark:border-white dark:shadow-gray-500 hover:shadow-neutral-200 dark:hover:shadow-gray-400">
 
                         <h3 className="text-2xl font-salma text-slate-600 md:text-xl lg:text-2xl dark:text-neutral-300">CRUD Project</h3>
 
@@ -64,7 +64,7 @@ function MyProject(props, projectRef) {
 
                     </div>
 
-                    <div className="border-t md:ml-10 lg:ml-60 border-gray-200 text-center min-w-fit md:h-auto shadow-lg p-10 rounded-xl mx-auto my-auto snap-center snap-always dark:border-white dark:shadow-gray-500 hover:shadow-neutral-200 dark:hover:shadow-gray-400">
+                    <div className="border-t my-10 md:ml-10 lg:ml-60 border-gray-200 text-center min-w-fit md:h-auto shadow-lg p-10 rounded-xl mx-auto md:my-auto snap-center snap-always dark:border-white dark:shadow-gray-500 hover:shadow-neutral-200 dark:hover:shadow-gray-400">
 
                         <h3 className="text-2xl font-salma text-slate-600 md:text-xl lg:text-2xl dark:text-neutral-200">PHP Login System</h3>
                         <p className="md:max-w-lg py-2 font-rony9 bg-gradient-to-r from-fuchsia-500 dark:from-sky-400 via-rose-400 dark:via-indigo-100 to-red-500 dark:to-red-400  bg-clip-text text-transparent">
@@ -87,7 +87,7 @@ function MyProject(props, projectRef) {
 
                     </div>
 
-                    <div className="border-t md:ml-10 lg:ml-60 border-gray-200 text-center min-w-fit md:h-auto shadow-lg p-10 rounded-xl mx-auto my-auto snap-center snap-always dark:border-white dark:shadow-gray-500 hover:shadow-neutral-200 dark:hover:shadow-gray-400">
+                    <div className="border-t my-10 md:ml-10 lg:ml-60 border-gray-200 text-center min-w-fit md:h-auto shadow-lg p-10 rounded-xl mx-auto md:my-auto snap-center snap-always dark:border-white dark:shadow-gray-500 hover:shadow-neutral-200 dark:hover:shadow-gray-400">
 
                         <h3 className="text-2xl font-salma text-slate-600 md:text-xl lg:text-2xl dark:text-neutral-200">TV screen Mini Project</h3>
                         <p className="md:max-w-lg py-2 font-rony9 bg-gradient-to-r from-fuchsia-500 dark:from-sky-400 via-rose-400 

@@ -161,7 +161,7 @@ export default function Home() {
         
         <MySkills ref={skillsRef} />
         <WorkExperience ref={workRef} />
-        <MyProject ref={projectRef} />
+        <MyProject ref={projectRef}/>
 
         <footer>
           <div className="font-rony9 pb-8 text-sm border-t-2 p-auto pt-3 text-center font-extrabold text-blue-800 dark:text-sky-400 ">
