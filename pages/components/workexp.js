@@ -29,7 +29,7 @@ function WorkExperience(props, workRef) {
                 <div className="text-center p-10">
                     <h3 className="text-5xl md:text-6xl py-1 font-newWalt  dark:text-white">Work experience</h3>
                     <div className="py-2 max-w-2xl mx-auto leading-8">
-                        <div className="h-auto w-auto mx-auto font-salma rounded-lg border-2 border-stone-300 bg-gradient-to-r from-sky-300 to-neutral-200 dark:from-blue-800 dark:to-slate-600 shadow-md shadow-gray-500 ">
+                        <div className="h-auto w-auto mx-auto font-salma rounded-lg border-2 border-sky-400 hover:border-sky-200 bg-gradient-to-r from-blue-300 to-neutral-200 dark:from-blue-800 dark:to-slate-600 shadow-md shadow-gray-500 ">
                             <h2 className="text-2xl md:text-4xl pt-1 dark:text-white"><a href="https://www.computec.co.jp/ja/" target="_blank">Computec Engineering Ltd. </a><br /><a className="text-sm md:text-lg">(2022/11 ~ now)</a></h2>
                             <p className="text-xl md:text-2xl py-3 bg-gradient-to-r from-violet-700 dark:from-purple-400  via-blue-600 to-cyan-600 dark:to-cyan-300 bg-clip-text text-transparent">Full-time Infrastructure Engineer</p>
                             <ul className="text-lg py-3 bg-gradient-to-r from-violet-700 dark:from-purple-400  via-blue-600 to-cyan-600 dark:to-cyan-300 bg-clip-text text-transparent">
