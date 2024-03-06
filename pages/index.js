@@ -63,7 +63,7 @@ export default function Home() {
             <li>
               <button className="font-burtons text-[10px] align-middle md:text-sm ml-1 md:ml-2 lg:ml-4 text-blue-900 hover:text-sky-500 dark:text-white  dark:hover:text-neutral-300"
                 onClick={() => handleClick("top")}>
-                Top
+                Intro
               </button>
             </li>
 
