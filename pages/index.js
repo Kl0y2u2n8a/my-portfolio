@@ -143,8 +143,8 @@ export default function Home() {
         <section className="min-h-screen">
           <div className="text-center p-10 ">
 
-            <div className="relative mx-auto bg-gradient-to-b from-slate-600 to-neutral-300 rounded-full w-60 h-60 mb-5 overflow-hidden md:w-72 md:h-72">
-              <Image src={my} className="" />
+            <div className="relative mx-auto bg-gradient-to-tr from-slate-600 to-blue-400 bg-clip-border border-transparent border-2 hover:border-4 hover:from-indigo-400 hover:to-blue-300 rounded-full w-60 h-60 mb-5 overflow-hidden md:w-72 md:h-72">
+              <Image src={my}/>
             </div>
             <h2 className="text-4xl py-2 bg-gradient-to-r from-cyan-400 to-indigo-800 bg-clip-text text-transparent md:text-5xl lg:text-6xl lg:py-3">Kevin Liang</h2>
             <h3 className="text-xl py-2 md:text-2xl lg:text-3xl bg-gradient-to-r from-purple-500 to-sky-400 bg-clip-text text-transparent ">Infrastructure Engineer</h3>
