@@ -122,8 +122,9 @@ export default function Home() {
             </li>
 
             <li>
-              <a href="https://my-portfolio-jp-one.vercel.app/" target="_blank"><TbLanguageHiragana
-                className="text-lg md:text-xl ml-1 md:ml-2 lg:ml-4
+              <a href="https://my-portfolio-jp-one.vercel.app/" target="_blank">
+                <TbLanguageHiragana
+                className="text-sm md:text-xl ml-1 md:ml-2 lg:ml-4
             text-blue-900 hover:text-sky-500 dark:text-white dark:hover:text-neutral-300"
               /></a>
             </li>
