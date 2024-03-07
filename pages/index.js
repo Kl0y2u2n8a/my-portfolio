@@ -55,7 +55,7 @@ export default function Home() {
 
         
 
-        <nav className="sticky top-0 z-50 py-5 mb-12 flex justify-between">
+        <nav className="sticky top-0 z-50 py-5 mb-12 flex justify-between font-extrabold">
           <h1 className="text-xl font-burtons text-blue-900 hover:text-blue-500 dark:text-white dark:hover:text-neutral-300">
             <a href="/">kevinliangweb</a>
           </h1>

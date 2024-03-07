@@ -119,7 +119,7 @@ const MyTabComp = () => {
                     return (
                         <button
                             key={index}
-                            className={'relative block text-sm tab items-center rounded-full bg-gradient-to-r from-sky-400 via-blue-500 to-gray-800 bg-clip-text text-transparent dark:via-blue-300 dark:to-gray-400 hover:text-white ${index === activeTab ? "border-gray-900" : "border-white" }'}
+                            className={'relative block text-sm tab items-center rounded-full font-extrabold bg-gradient-to-r from-sky-400 via-blue-500 to-gray-800 bg-clip-text text-transparent dark:via-blue-300 dark:to-gray-400 hover:text-white ${index === activeTab ? "border-gray-900" : "border-white" }'}
                             onClick={() => setActiveTab(index)}
                         >
                             {item.tab}
