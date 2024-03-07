@@ -52,8 +52,8 @@ const MyTabComp = () => {
                     <li className="ml-2 text-lg"> 70%</li>
                     {progressBar("70%")}
                     <li className="mt-2">MySQL</li>
-                    <li className="ml-2 text-lg"> 80%</li>
-                    {progressBar("80%")}
+                    <li className="ml-2 text-lg"> 70%</li>
+                    {progressBar("70%")}
                 </ul>    
             </div>)
         },
