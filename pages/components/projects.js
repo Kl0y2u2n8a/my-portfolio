@@ -21,7 +21,7 @@ function MyProject(props, projectRef) {
                         <p className="md:max-w-lg py-2 font-rony9 bg-gradient-to-r from-fuchsia-500 dark:from-sky-400 via-rose-400 dark:via-indigo-100 to-red-500 dark:to-red-400  bg-clip-text text-transparent">
                             This is a mini project for me to practicing Typescript and React.
                             When you enter the form below and press add.
-                            It will display all the information that user entered on the top log.
+                            It will display all invoices and payments that user entered on the bottom log.
                             </p>
                         <p className="md:max-w-lg py-2 font-rony9 bg-gradient-to-r from-fuchsia-500 dark:from-sky-400 via-rose-400 dark:via-indigo-100 to-red-500 dark:to-red-400  bg-clip-text text-transparent">* Not finished, Still in progress.. *</p>
 
@@ -32,13 +32,13 @@ function MyProject(props, projectRef) {
                         <button className="mt-3 rounded-lg border border-gray-800 p-1 text-sm text-blue-700 font-burtons 
                             bg-gradient-to-r from-blue-400 via-white to-sky-500 hover:from-sky-500 hover:via-white hover:to-blue-400 hover:text-violet-500 
                             dark:from-blue-600 dark:to-sky-600 dark:text-white dark:hover:from-sky-600 dark:hover:via-gray-400 dark:hover:to-blue-600">
-                            <a href="https://github.com/Kl0y2u2n8a/HelloWorld" target="_blank">Resource Code</a>
+                            <a href="https://github.com/Kl0y2u2n8a/financelog" target="_blank">Resource Code</a>
                         </button>
 
                         <button className="mt-3 mx-3 rounded-lg border border-gray-800 p-1 text-sm text-blue-700 font-burtons bg-gradient-to-r 
                             from-blue-400 via-white to-sky-500 hover:from-sky-500 hover:via-white hover:to-blue-400 hover:text-violet-500 
                             dark:from-blue-600 dark:to-sky-600 dark:text-white dark:hover:from-sky-600 dark:hover:via-gray-400 dark:hover:to-blue-600">
-                                <a href="https://hello-world-qsdmh6h2j-kl0y2u2n8as-projects.vercel.app/" target="_blank">Website</a>
+                                <a href="https://financelog-zeta.vercel.app/" target="_blank">Website</a>
                         </button>
 
                     </div>
