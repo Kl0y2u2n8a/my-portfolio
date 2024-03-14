@@ -23,8 +23,6 @@ function MyProject(props, projectRef) {
                             When you enter the form below and press add.
                             It will display all invoices and payments that user entered on the bottom log.
                             </p>
-                        <p className="md:max-w-lg py-2 font-rony9 bg-gradient-to-r from-fuchsia-500 dark:from-sky-400 via-rose-400 dark:via-indigo-100 to-red-500 dark:to-red-400  bg-clip-text text-transparent">* Not finished, Still in progress.. *</p>
-
                         <h4 className="py-2 font-salma text-slate-600 dark:text-neutral-200 text-base md:text-lg lg:text-xl ">Tools & Language</h4>
                         <p className="text-sm bg-gradient-to-r from-pink-500 via-rose-500 to-orange-500 bg-clip-text text-transparent py-1 font-rony9">HTML/CSS, Typescript, React</p>
                         <p className="text-sm bg-gradient-to-r from-pink-500 via-rose-500 to-orange-500 bg-clip-text text-transparent py-1 font-rony9">Visual Studio Code</p>
