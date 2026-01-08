@@ -134,7 +134,7 @@ export default function Home() {
                 className="border-2 border-gray-600 rounded-full bg-gradient-to-r from-blue-500 to-sky-400 px-2 justify-center 
                             ml-2 lg:ml-4 font-burtons text-l text-blue-900 dark:text-white hover:bg-gradient-to-l dark:hover:text-neutral-300"
               >
-                <a href="https://drive.google.com/file/d/1brZKtkZXY8eL__ZqG7HDDxdz1ndcuYV4/view?usp=sharing" target="_blank" >Resume</a>
+                <a href="https://docs.google.com/document/d/1T5562Lc5RZUopZll7AkykQn2NKwBdBw53mM20pqAygc/edit?usp=sharing" target="_blank" >Resume</a>
               </button>
             </li>
           </ul>
